@@ -227,31 +227,6 @@
   </entry>
   
   <entry>
-    <title>SEO中动态URL和静态URL的区别</title>
-    <link href="https://gkl2013.top/2017/10/24/SEO%E4%B8%AD%E5%8A%A8%E6%80%81URL%E5%92%8C%E9%9D%99%E6%80%81URL%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-    <id>https://gkl2013.top/2017/10/24/SEO中动态URL和静态URL的区别/</id>
-    <published>2017-10-23T16:00:00.000Z</published>
-    <updated>2018-02-03T03:43:31.568Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="静态页面（静态URL）"><a href="#静态页面（静态URL）" class="headerlink" title="静态页面（静态URL）"></a>静态页面（静态URL）</h1><p>如<a href="http://www.a.com/a.html" target="_blank" rel="noopener">http://www.a.com/a.html</a><br>静态URL就是指不带有“？”、“=”“&amp;”“php”’asp’等字符的URL，换句话说就是不带有任何参数的URL，就是静态URL,纯静态的URL是以具体的HTML,htm物理文件存在于服务器上的。</p><p>纯静态的URL优势在于访问速度快，体验度较好，因为这是真实存在的物理路径下的文件，真实存在的页面，访问时并不需要重数据库获取内容。但是每次的新内容因为要直接产生静态页面，对服务器的性能是一个很大的考验，想想每个页面都要直接能找到，磁盘和内存消耗相当大。而且当网站数据量达到一定程度的时候，对硬盘的容量要求高，且不便于后期维护，所以现在使用的极少。</p><h1 id="动态页面（动态URL）"><a href="#动态页面（动态URL）" class="headerlink" title="动态页面（动态URL）"></a>动态页面（动态URL）</h1><p>URL又称动态页面，动态链接，即指在URL中出现“?” 这样的参数符号，并以aspx、asp、jsp、php、perl、cgi为后缀的url,如：<br><a href="https://www.baidu.com/s?ie=utf-8&amp;f=3&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=seo" target="_blank" rel="noopener">https://www.baidu.com/s?ie=utf-8&amp;f=3&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=seo</a><br>动态URL的优势在于技术维护工作量可以降低很多，但许多交互式的内容，比如购物车、注册等特定的后台功能必须使用。现在购物网站如淘宝/京东等均使用动态URL。</p><p>动态URL的优点：<br>1、空间使用量非常小，一般几万条数据的网站，使用动态页面，可能只有十几兆的文件大小，而使用静态页面少则几十M，多则上百M。<br>2、网站维护方便，由于内容主要集中在数据库中，更新网站时可以批量操作，省时高效<br>3、网站互动性好，可随时获取最新的网站内容。</p><p>动态URL的缺点：<br>第一、动态URL较之静态的URL不利于搜索引擎抓取，如果没有做好参数设置，会导致蜘蛛进入死循环。<br>第二、动态网址的生成是采集数据库的内容，所以不能保证网页内容的稳定性和链接的永久性，所以很难被搜索引擎收录快照。<br>第三、在建设反向链接过程中，因为动态URL的非永久性，所以它不如静态URL有优势。<br>第四、在访问过程中会获取数据库资源，在某些情况下会影响到网站的打开速度。</p><h1 id="伪静态"><a href="#伪静态" class="headerlink" title="伪静态"></a>伪静态</h1><p>伪静态是相对于静态页面而言的<br>从URL结构以及页面名称看，伪静态和静态页面是一样的。伪静态的页面后缀可以是html htm 或者是目录格式，<br>伪静态只是改变了URL的表现形式，实际上还是动态页面，所以可以节省服务器空间，伪静态严格说会增加服务器资源消耗，但是由于减少了URL的参数，便于用户识别，蜘蛛也可避免进入死循环。</p><blockquote><p>根据百度官方文档，正常的动态url对搜索引擎没有影响。url是动态还是静态对搜索引擎没有影响，但建议尽量减少动态url中包含的变量参数，这样即有助于减少url长度，也可以减少让搜索引擎掉入黑洞的风险。</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;静态页面（静态URL）&quot;&gt;&lt;a href=&quot;#静态页面（静态URL）&quot; class=&quot;headerlink&quot; title=&quot;静态页面（静态URL）&quot;&gt;&lt;/a&gt;静态页面（静态URL）&lt;/h1&gt;&lt;p&gt;如&lt;a href=&quot;http://www.a.com/a.html&quot;
-      
-    
-    </summary>
-    
-      <category term="SEO" scheme="https://gkl2013.top/categories/SEO/"/>
-    
-    
-      <category term="SEO" scheme="https://gkl2013.top/tags/SEO/"/>
-    
-  </entry>
-  
-  <entry>
     <title>流光效果</title>
     <link href="https://gkl2013.top/2017/10/24/%E6%B5%81%E5%85%89%E6%95%88%E6%9E%9C/"/>
     <id>https://gkl2013.top/2017/10/24/流光效果/</id>
@@ -273,6 +248,31 @@
     
     
       <category term="CSS3" scheme="https://gkl2013.top/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SEO中动态URL和静态URL的区别</title>
+    <link href="https://gkl2013.top/2017/10/24/SEO%E4%B8%AD%E5%8A%A8%E6%80%81URL%E5%92%8C%E9%9D%99%E6%80%81URL%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>https://gkl2013.top/2017/10/24/SEO中动态URL和静态URL的区别/</id>
+    <published>2017-10-23T16:00:00.000Z</published>
+    <updated>2018-02-03T03:43:31.568Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="静态页面（静态URL）"><a href="#静态页面（静态URL）" class="headerlink" title="静态页面（静态URL）"></a>静态页面（静态URL）</h1><p>如<a href="http://www.a.com/a.html" target="_blank" rel="noopener">http://www.a.com/a.html</a><br>静态URL就是指不带有“？”、“=”“&amp;”“php”’asp’等字符的URL，换句话说就是不带有任何参数的URL，就是静态URL,纯静态的URL是以具体的HTML,htm物理文件存在于服务器上的。</p><p>纯静态的URL优势在于访问速度快，体验度较好，因为这是真实存在的物理路径下的文件，真实存在的页面，访问时并不需要重数据库获取内容。但是每次的新内容因为要直接产生静态页面，对服务器的性能是一个很大的考验，想想每个页面都要直接能找到，磁盘和内存消耗相当大。而且当网站数据量达到一定程度的时候，对硬盘的容量要求高，且不便于后期维护，所以现在使用的极少。</p><h1 id="动态页面（动态URL）"><a href="#动态页面（动态URL）" class="headerlink" title="动态页面（动态URL）"></a>动态页面（动态URL）</h1><p>URL又称动态页面，动态链接，即指在URL中出现“?” 这样的参数符号，并以aspx、asp、jsp、php、perl、cgi为后缀的url,如：<br><a href="https://www.baidu.com/s?ie=utf-8&amp;f=3&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=seo" target="_blank" rel="noopener">https://www.baidu.com/s?ie=utf-8&amp;f=3&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=seo</a><br>动态URL的优势在于技术维护工作量可以降低很多，但许多交互式的内容，比如购物车、注册等特定的后台功能必须使用。现在购物网站如淘宝/京东等均使用动态URL。</p><p>动态URL的优点：<br>1、空间使用量非常小，一般几万条数据的网站，使用动态页面，可能只有十几兆的文件大小，而使用静态页面少则几十M，多则上百M。<br>2、网站维护方便，由于内容主要集中在数据库中，更新网站时可以批量操作，省时高效<br>3、网站互动性好，可随时获取最新的网站内容。</p><p>动态URL的缺点：<br>第一、动态URL较之静态的URL不利于搜索引擎抓取，如果没有做好参数设置，会导致蜘蛛进入死循环。<br>第二、动态网址的生成是采集数据库的内容，所以不能保证网页内容的稳定性和链接的永久性，所以很难被搜索引擎收录快照。<br>第三、在建设反向链接过程中，因为动态URL的非永久性，所以它不如静态URL有优势。<br>第四、在访问过程中会获取数据库资源，在某些情况下会影响到网站的打开速度。</p><h1 id="伪静态"><a href="#伪静态" class="headerlink" title="伪静态"></a>伪静态</h1><p>伪静态是相对于静态页面而言的<br>从URL结构以及页面名称看，伪静态和静态页面是一样的。伪静态的页面后缀可以是html htm 或者是目录格式，<br>伪静态只是改变了URL的表现形式，实际上还是动态页面，所以可以节省服务器空间，伪静态严格说会增加服务器资源消耗，但是由于减少了URL的参数，便于用户识别，蜘蛛也可避免进入死循环。</p><blockquote><p>根据百度官方文档，正常的动态url对搜索引擎没有影响。url是动态还是静态对搜索引擎没有影响，但建议尽量减少动态url中包含的变量参数，这样即有助于减少url长度，也可以减少让搜索引擎掉入黑洞的风险。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;静态页面（静态URL）&quot;&gt;&lt;a href=&quot;#静态页面（静态URL）&quot; class=&quot;headerlink&quot; title=&quot;静态页面（静态URL）&quot;&gt;&lt;/a&gt;静态页面（静态URL）&lt;/h1&gt;&lt;p&gt;如&lt;a href=&quot;http://www.a.com/a.html&quot;
+      
+    
+    </summary>
+    
+      <category term="SEO" scheme="https://gkl2013.top/categories/SEO/"/>
+    
+    
+      <category term="SEO" scheme="https://gkl2013.top/tags/SEO/"/>
     
   </entry>
   
