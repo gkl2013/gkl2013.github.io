@@ -74,31 +74,6 @@
   </entry>
   
   <entry>
-    <title>Electron绕坑指南</title>
-    <link href="https://gkl2013.top/2018/03/01/Electron/"/>
-    <id>https://gkl2013.top/2018/03/01/Electron/</id>
-    <published>2018-02-28T16:00:00.000Z</published>
-    <updated>2018-03-02T02:27:59.716Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、electron-builder-Application-entry-file-does-not-exist"><a href="#一、electron-builder-Application-entry-file-does-not-exist" class="headerlink" title="一、electron-builder Application entry file does not exist"></a>一、electron-builder Application entry file does not exist</h2><p>这个是由于webpack的编译后的文件与electron-builder打包指定的文件夹冲突了，将webpack的输出文件夹更改下就OK了。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;一、electron-builder-Application-entry-file-does-not-exist&quot;&gt;&lt;a href=&quot;#一、electron-builder-Application-entry-file-does-not-exist&quot; class=
-      
-    
-    </summary>
-    
-      <category term="前端开发" scheme="https://gkl2013.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
-    
-      <category term="Electron" scheme="https://gkl2013.top/tags/Electron/"/>
-    
-  </entry>
-  
-  <entry>
     <title>windows下安装puppeteer</title>
     <link href="https://gkl2013.top/2018/02/08/puppeteer/"/>
     <id>https://gkl2013.top/2018/02/08/puppeteer/</id>
